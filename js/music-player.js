@@ -140,8 +140,10 @@
       midiPart.dispose();
       midiPart = null;
     }
-    Tone.Transport.stop();
-    Tone.Transport.cancel();
+    if (typeof Tone !== 'undefined') {
+      Tone.Transport.stop();
+      Tone.Transport.cancel();
+    }
     isPlaying = false;
     isPaused = false;
     setVisualizer(false);
