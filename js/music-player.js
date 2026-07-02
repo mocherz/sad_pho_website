@@ -2,9 +2,9 @@
   'use strict';
 
   var TRACKS = [
-    { file: 'assets/music/chill.mod', title: 'Chill', format: 'MOD', type: 'tracker' },
-    { file: 'assets/music/king.mod', title: 'King', format: 'MOD', type: 'tracker' },
-    { file: 'assets/music/sundown.mod', title: 'Sundown', format: 'MOD', type: 'tracker' },
+    { file: 'https://raw.githubusercontent.com/rombankzero/pocketmod/master/songs/chill.mod', title: 'Chill', format: 'MOD', type: 'tracker' },
+    { file: 'https://raw.githubusercontent.com/rombankzero/pocketmod/master/songs/king.mod', title: 'King', format: 'MOD', type: 'tracker' },
+    { file: 'https://raw.githubusercontent.com/rombankzero/pocketmod/master/songs/sundown.mod', title: 'Sundown', format: 'MOD', type: 'tracker' },
     { file: 'assets/music/ghosts.xm', title: 'Ghosts', format: 'XM', type: 'tracker' },
     { file: 'assets/music/pattern-loop.s3m', title: 'Pattern Loop', format: 'S3M', type: 'tracker' },
     { file: 'assets/music/retro-chiptune.mid', title: 'Retro Keys', format: 'MIDI', type: 'midi' }
